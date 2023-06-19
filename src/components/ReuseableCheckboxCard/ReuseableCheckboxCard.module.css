@@ -1,0 +1,38 @@
+.checkboxCardBox {
+    display: grid;
+    background-color: white;
+    padding: 10px;
+    gap: 25px;
+    justify-content: start;
+    border-radius: 7px;
+    border: 0.5px solid #e2e2e2;
+  }
+  
+  /* .checkBox[type="checkbox"] {
+    background: #990000;    
+}
+
+
+.checkBox input:checked ~ .checkmark {
+    background-color: #98f321;
+  }*/
+
+  .bookingHeading{
+    color: lightslategray;
+  }
+.checkBox {
+    accent-color: #fc0303; 
+} 
+
+.checkboxStyle{
+    display: flex;
+    gap: 10px;
+}
+.lableTextStyle{
+    font-size: 15px;
+}
+
+.hrTagStyle{
+    width: 98%;
+    color: lightslategray;
+}

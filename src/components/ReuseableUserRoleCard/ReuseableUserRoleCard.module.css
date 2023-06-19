@@ -1,0 +1,78 @@
+.cardContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: 0.1px solid rgb(238, 238, 238);
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSideItems {
+  display: flex;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.profileTextArea {
+  display: grid;
+  /* grid-gap: 10px; */
+  margin-left: 10px;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 600;
+}
+.userRole {
+  font-size: 12px;
+}
+.userId {
+  font-size: 13px;
+  color: gray;
+}
+.userEmail {
+  font-size: 13px;
+  color: gray;
+}
+
+/* start right side------------ */
+.rightSideItems {
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  grid-template-rows: auto 1px auto;
+}
+
+.userVerificationStatusPending{
+  color: white;
+  background-color: #E9B67A;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.userVerificationStatusActive{
+  color: white;
+  background-color: #B8D693;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.threeDotsIcon{
+    margin-left: 30px;
+}
+/* toggle button-------- */
+.switchButton{
+    margin-left: 0px;
+    margin-right: 0px;
+}

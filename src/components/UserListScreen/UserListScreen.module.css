@@ -1,0 +1,5 @@
+.cardList{
+    margin: 50px;
+    display: grid;
+    gap: 20px;
+}

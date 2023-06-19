@@ -1,0 +1,13 @@
+.buttonBackground{
+    background-color: #EC1E27;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.buttonText{
+    color: white;
+    font-size: 15px;
+}
